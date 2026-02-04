@@ -1,12 +1,12 @@
 public class intprinter <T> {
     
-    private int number;
+    private T variableName;
 
-    public intprinter(int number) {
-        this.number = number;
+    public intprinter(T variableName) {
+        this.variableName = variableName;
     }
 
     public void printNumber() {
-        System.out.println(number);
+        System.out.println(variableName);
     }
 }
