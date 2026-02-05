@@ -1,8 +1,9 @@
-public class intprinter <T> {
+package day1;
+public class printer <T> {
     
     private T variableName;
 
-    public intprinter(T variableName) {
+    public printer(T variableName) {
         this.variableName = variableName;
     }
 
