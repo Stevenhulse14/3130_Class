@@ -1,19 +1,19 @@
 package day1.genericLab;
 
-public class Box<T> {
+public class Box <T> {
 
-    private T poke;
+    private T value;
     
-    public Box(T poke){
-        this.poke = poke;
+    public Box(T value){
+        this.value = value;
     }
     public T get(){
-        System.out.println(this.poke);
-        return this.poke;
+        System.out.println(this.value);
+        return this.value;
     }
 
-    public void set(T poke){
-        this.poke = poke;
+    public void set(T newValue){
+        this.value = value;
         System.out.println("Setting new pokemon !");
     }
 }

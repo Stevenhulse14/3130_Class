@@ -1,8 +1,8 @@
 package day1.genericLab;
 
 public class pokemon {
-    private String name;
-    private String type;
+    public String name;
+    public String type;
 
     public pokemon(String name, String type){
         this.name = name;

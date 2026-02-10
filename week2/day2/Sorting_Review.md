@@ -21,7 +21,15 @@ This review covers **bubble**, **insertion**, and **selection** sort. Focus on h
 
 ### Trace Example
 
+         i.       j
+
 Array: `[5, 1, 4, 2]`
+[5,1 ] [4, 2]
+[5][1] [4][1]
+let i, j;
+// best case if 1 was the first element that
+// average case
+// worst case if 1 was the last element
 
 - Pass 1: `[1, 4, 2, 5]`
 - Pass 2: `[1, 2, 4, 5]`

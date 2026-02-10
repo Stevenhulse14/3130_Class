@@ -8,6 +8,15 @@ public class main {
         
         System.out.println(pikachu);
         System.out.println(charmander);
+
+        Pair<pokemon, String> heldItem = new Pair<> (pikachu, "Oran Berry");
+        System.out.println(heldItem);
+
+        Box<pokemon> newPokemon = new Box<>(pikachu);
+        System.out.println(newPokemon);
+
+        pokemonOnlyBox<pokemon> b1 = new pokemonOnlyBox<>(pikachu);
+        System.out.println(b1.getType());
         
     }
 }
