@@ -1,0 +1,75 @@
+Q1. List the 4 pillars of OOP. In your own words, define each in 1–2 sentences.
+
+    Abstraction : Hiding code that the user doesn't need to see. 
+    Inheriatence : taking behaviors from other classes.
+    Encapsulation : Making sub Enviorments.
+    Polymorphsim : Poly - | Morph
+
+
+
+Q2.
+ a) What is Big-O in your own words?
+
+   Ability to analyse how long a program takes to run based of the amount of input given.
+   ( MAXWELL - the amount of data !)
+    
+ b) When we discuss Big-O, what two concepts are we evaluating?
+    
+    Space & Time complexity
+
+
+ c) What is the Big-O of the code below? Give one short reason.
+for (int i = 0; i < n; i++) {
+  for (int j = 0; j < n; j++) {
+    // constant work
+  }
+} 
+
+its a nested for loop so that means that the bigO is O(n^2)
+
+Q3. Given:
+ arr1 = [1, 2, 3, 4, 5]
+ arr2 = [5, 2, 4, 3, 1]
+ a) Give two benefits of ordered/sorted data.
+
+    Sorted data, you can use a sorted array to find the min or max or a value.
+    We can benefit for using different algorthms that can benefit from the data being sorted.
+
+
+ b) Why is adding an item to the back of an array typically faster than adding it to the front?
+
+    When you add an item to the front of the array you need to shift Big O(N) all the other item in the array back one to make for that element.
+    if we add to the back of the array, we are appending a new element which is big O(1) 
+    
+Q4. Transform the code below using generics. You must show a generic class and a main method that uses it with two different types.
+
+
+class Box <T> {
+  private T value;
+  public Box(T value) { this.value = value; }
+  public T getValue() { return value; }
+}
+
+Box <T> b = new Box <>();
+
+Q5. When would you choose a Vector over an ArrayList? Give a short explanation.
+
+    When Working with threads.
+    Working with legacy code or older versions of Java.
+
+Q6. Name one ArrayList method you have used. Describe what it does.
+
+    noel - .add() - insert an element inside the ArrayList
+    Perez - .remove() - removes an element from the array any element.
+    Akobir - contain() - check if the element is in the list.
+    Zohaib - .get() - returns an element based of the given index.
+
+Q7. Name two basic Vector methods you have used. * Give a short explanation of what each does. Then state one key difference between Vector and ArrayList.
+
+    .remove() .add()
+
+
+Q8. In the inventory homework, the Product class overrides equals() and hashCode().
+ a) Why override equals() for Product?
+ b) Why must hashCode() be consistent with equals()?
+ c) What could go wrong if they are inconsistent?
