@@ -1,9 +1,9 @@
 Q1. List the 4 pillars of OOP. In your own words, define each in 1–2 sentences.
 
-    Abstraction : Hiding code that the user doesn't need to see. 
-    Inheriatence : taking behaviors from other classes.
-    Encapsulation : Making sub Enviorments.
-    Polymorphsim : Poly - | Morph
+Abstraction: Hiding implementation details the user does not need to see.
+Inheritance: A class taking properties and behaviors from another class.
+Encapsulation: Bundling data and methods together and controlling access to them.
+Polymorphism: The same method/interface can behave differently depending on the object or class using it.
 
 
 
