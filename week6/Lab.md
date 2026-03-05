@@ -87,11 +87,14 @@ crew.forEach(p -> System.out.println(p.name + " - " + p.role));
 
 ## Part C: Small Extension
 
-Choose one extension and implement it:
+Do as many as you can extension and implement it:
 
 - Option 1: Sort `bigShots` by bounty (highest first).
 - Option 2: Group pirates by role and print each group.
 - Option 3: Add a method reference for printing names only.
+- Option 4: Create a new list of just the pirate names using `map` and `toList()`.
+- Option 5: Use `reduce` to find the total bounty of all pirates.
+- Option 6: Use `anyMatch` to check if any pirate has a bounty over 200.
 
 Pick one and add a short comment explaining your choice.
 
