@@ -96,7 +96,7 @@ Do as many as you can extension and implement it:
 - Option 5: Use `reduce` to find the total bounty of all pirates.
 - Option 6: Use `anyMatch` to check if any pirate has a bounty over 200.
 
-Pick one and add a short comment explaining your choice.
+Pick all and add a short comment explaining your choice.
 
 ## Deliverables
 
